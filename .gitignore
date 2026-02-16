@@ -13,6 +13,7 @@ build/
 .env.*.local
 .env.production
 .env.staging
+.env.example
 
 # ─── Logs ─────────────────────────────────────────────────
 logs/
@@ -50,6 +51,7 @@ $RECYCLE.BIN/
 
 # ─── Docker ───────────────────────────────────────────────
 docker-compose.override.yml
+Dockerfile
 
 # ─── Misc ─────────────────────────────────────────────────
 .cache/
