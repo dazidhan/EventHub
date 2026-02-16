@@ -1,0 +1,61 @@
+# ─── Dependencies ─────────────────────────────────────────
+node_modules/
+package-lock.json
+
+# ─── Build Output ─────────────────────────────────────────
+dist/
+build/
+*.tsbuildinfo
+
+# ─── Environment & Secrets ────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# ─── Logs ─────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pids/
+*.pid
+*.seed
+
+# ─── Testing & Coverage ──────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+jest.config.ts.snap
+
+# ─── IDE & Editor ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ─── OS Generated Files ──────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ─── Docker ───────────────────────────────────────────────
+docker-compose.override.yml
+
+# ─── Misc ─────────────────────────────────────────────────
+.cache/
+tmp/
+temp/
+*.bak
+*.tmp
+.eslintcache
+tsc-output.txt
